@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  #wrapper
+    #logo
+      img(src='/images/logo.png')
+    #display
+      include userbar
+
+      h1 #{title.toUpperCase()}
+      P #{content}
+      p end
+
+     #footer
+     include footer
