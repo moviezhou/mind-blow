@@ -17,6 +17,60 @@ a {
 #display {
   margin: 20px 0 50px;
 }
+#display h1 {
+  padding: 0 0 30px;
+}
+#display h2 {
+  text-align: center;
+}
 #userbar {
   margin-bottom: 10px;
+  text-align: right;
+}
+#slogan {
+  color: #26b8d6;
+}
+label {
+  display: inline-block;
+  margin-right: 16px;
+  width: 60px;
+  line-height: 30px;
+  text-align: right;
+}
+#login-form .item {
+  margin: 16px 0px;
+}
+.item input {
+  width: 200px;
+  height: 18px;
+  font-size: 16px;
+  padding: 0.5em;
+  border-radius: 3px;
+  border: 2px solid #26b8d6;
+}
+.submit-btn input {
+  width: 110px;
+  margin: 16px 16px 16px 0px;
+  padding: 0.5em;
+  font-size: 16px;
+  color: #fff;
+  background-color: #26b8d6;
+  border-radius: 3px;
+  border: 2px solid #fff;
+}
+article.content {
+  font-size: 16px;
+  line-height: 24px;
+}
+li {
+  padding: 0.2em;
+}
+li.listing-item {
+  list-style-type: none;
+}
+.listing a {
+  text-decoration: none;
+}
+#content {
+  background-color: #e6f1f6;
 }

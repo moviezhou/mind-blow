@@ -6,11 +6,18 @@ block content
         img(src='/images/logo.png')
     #display
         h1= title
-        p Welcome to #{title}
         #login
             form(method='post')
-                | Enter youre name if you want to be a bloger
-                div
-                    input(type='text', name='username')
-                    input(type='submit', value='Log In')
+                #slogan
+                    p Enter your name if you want to be a mind-blower
+                #login-form
+                    .item
+                        label Username
+                        input(type='text', name='username')
+                    .item
+                        label Password
+                        input(type='password', name='password')
+                    .submit-btn
+                        label &nbsp;
+                        input(type='submit', value='Log In')
     include footer

@@ -1,5 +1,5 @@
 exports.home = function(req,res){
-	res.render('home',{title: 'My blog'})
+	res.render('home',{title: 'Welcome to Mind-Blow'})
 };
 
 exports.error404 = function(req,res){
